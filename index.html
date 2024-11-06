@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase TicTacToe</title>
+    <link rel="icon" src="https://cdn.glitch.global/e1dba59b-423c-47f7-972c-a8b3ccda1d7f/x.png?v=1730833230569">
+    <link rel="stylesheet" href="tictactoe.css">
+    <script type="module" src="/script.js" defer></script>
+    <script type="module" src="tictactoe.js"></script>
+    <!-- <link rel="manifest" src="manifest.json"> -->
+  </head>
+
+  <body>
+    <h1 class="titletext">TIC/TAC/TOE</h1>
+    <h3 id="gameMessage" class="titletext"></h3>
+    <div id="main">
+      <div id="one" class="box" onclick="playerTakeTurn(this)"></div>
+      <div id="two" class="box" onclick="playerTakeTurn(this)"></div>
+      <div id="three" class="box" onclick="playerTakeTurn(this)"></div>
+      <br>
+      <div id="four" class="box" onclick="playerTakeTurn(this)"></div>
+      <div id="five" class="box" onclick="playerTakeTurn(this)"></div>
+      <div id="six" class="box" onclick="playerTakeTurn(this)"></div>
+      <br>
+      <div id="seven" class="box" onclick="playerTakeTurn(this)"></div>
+      <div id="eight" class="box" onclick="playerTakeTurn(this)"></div>
+      <div id="nine" class="box" onclick="playerTakeTurn(this)"></div>
+    </div>
+    <div id="controls" class="hidden">
+      <!-- <button id="newbutton" onclick="newGame()">Start New Game</button>-->
+    </div>
+    <div id="lightbox" class="hidden"></div>
+    <div id="positionMessage">
+      <div id="boundaryMessage" class="hidden">
+        <img id="x" src="https://cdn.glitch.global/e1dba59b-423c-47f7-972c-a8b3ccda1d7f/x.png?v=1730833230569" alt="close" onclick="continueGame()">
+        <h1 class="titletext" id="message"></h1>
+      </div>
+    </div>
+  </body>
+</html>
