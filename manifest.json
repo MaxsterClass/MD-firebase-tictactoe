@@ -1,11 +1,11 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Tic Tac Toe",
+    "short_name": "Tic Tac Toe",
     "description": "",
     "start_url": "/",
     "scope": "/",
-    "theme_color": "#ffffff",
-    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "background_color": "#000000",
     "display": "standalone",
     "orientation": "portrait",
     "icons": [
